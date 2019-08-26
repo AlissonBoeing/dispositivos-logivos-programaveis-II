@@ -1,0 +1,14 @@
+AddSub
+	
+			Area	Delay
+Direct		17		2.343  report_path -from {Add*|data* Add*|cin*} -to {Add*|cout* Add*|combout*} -npaths 20
+Shared		24		3.919  report_path -from {Add*|data* Add*|cin* src*|data*} -to {Add*|cout* Add*|combout* src*|co*} -npaths 20
+Manual		17		2.343  report_path -from {Add*|data* Add*|cin* b_tmp*|data*} -to {Add*|co* b_tmp*|co*} -npaths 20
+
+
+
+Comp2mode
+
+			Area	Delay	
+Direct		17		2.260  report_path -from {LessThan*|data* LessThan*|cin* agtb*|data*} -to {LessThan*|combout LessThan*|cout agtb*|combout} -npaths 20
+Shared
