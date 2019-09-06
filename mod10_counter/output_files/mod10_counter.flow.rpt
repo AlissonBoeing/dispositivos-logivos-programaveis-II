@@ -1,5 +1,5 @@
 Flow report for mod10_counter
-Fri Aug 30 17:23:18 2019
+Fri Sep  6 17:11:26 2019
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -40,15 +40,15 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Flow Summary                                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Flow Status                        ; Successful - Fri Aug 30 17:23:18 2019            ;
+; Flow Status                        ; Successful - Fri Sep  6 17:11:26 2019            ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; mod10_counter                                    ;
 ; Top-level Entity Name              ; mod10_counter                                    ;
 ; Family                             ; Cyclone IV E                                     ;
 ; Device                             ; EP4CE115F29C7                                    ;
 ; Timing Models                      ; Final                                            ;
-; Total logic elements               ; 6 / 114,480 ( < 1 % )                            ;
-;     Total combinational functions  ; 6 / 114,480 ( < 1 % )                            ;
+; Total logic elements               ; 4 / 114,480 ( < 1 % )                            ;
+;     Total combinational functions  ; 4 / 114,480 ( < 1 % )                            ;
 ;     Dedicated logic registers      ; 4 / 114,480 ( < 1 % )                            ;
 ; Total registers                    ; 4                                                ;
 ; Total pins                         ; 6 / 529 ( 1 % )                                  ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/30/2019 17:21:36 ;
+; Start date & time ; 09/06/2019 17:09:55 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; mod10_counter       ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+--------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 79965022112691.156719649626021 ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 79965022112691.156780059511939 ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                             ; --            ; --          ; --             ;
@@ -93,11 +93,11 @@ applicable agreement for further details.
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis      ; 00:00:05     ; 1.0                     ; 400 MB              ; 00:00:05                           ;
-; Fitter                    ; 00:00:48     ; 1.8                     ; 762 MB              ; 00:01:08                           ;
-; Assembler                 ; 00:00:17     ; 1.0                     ; 338 MB              ; 00:00:16                           ;
-; TimeQuest Timing Analyzer ; 00:00:08     ; 1.0                     ; 419 MB              ; 00:00:07                           ;
-; EDA Netlist Writer        ; 00:00:03     ; 1.0                     ; 302 MB              ; 00:00:02                           ;
-; Total                     ; 00:01:21     ; --                      ; --                  ; 00:01:38                           ;
+; Fitter                    ; 00:00:39     ; 1.8                     ; 742 MB              ; 00:00:57                           ;
+; Assembler                 ; 00:00:16     ; 1.0                     ; 341 MB              ; 00:00:16                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.0                     ; 438 MB              ; 00:00:07                           ;
+; EDA Netlist Writer        ; 00:00:02     ; 1.0                     ; 302 MB              ; 00:00:02                           ;
+; Total                     ; 00:01:09     ; --                      ; --                  ; 00:01:27                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

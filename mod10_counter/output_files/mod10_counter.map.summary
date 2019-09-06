@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Fri Aug 30 17:21:41 2019
+Analysis & Synthesis Status : Successful - Fri Sep  6 17:10:00 2019
 Quartus II 32-bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
 Revision Name : mod10_counter
 Top-level Entity Name : mod10_counter
 Family : Cyclone IV E
-Total logic elements : 6
-    Total combinational functions : 6
+Total logic elements : 4
+    Total combinational functions : 4
     Dedicated logic registers : 4
 Total registers : 4
 Total pins : 6

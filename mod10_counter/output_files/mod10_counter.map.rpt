@@ -1,5 +1,5 @@
 Analysis & Synthesis report for mod10_counter
-Fri Aug 30 17:21:41 2019
+Fri Sep  6 17:10:00 2019
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
 
 
@@ -41,13 +41,13 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                          ;
 +------------------------------------+--------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Aug 30 17:21:41 2019            ;
+; Analysis & Synthesis Status        ; Successful - Fri Sep  6 17:10:00 2019            ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version ;
 ; Revision Name                      ; mod10_counter                                    ;
 ; Top-level Entity Name              ; mod10_counter                                    ;
 ; Family                             ; Cyclone IV E                                     ;
-; Total logic elements               ; 6                                                ;
-;     Total combinational functions  ; 6                                                ;
+; Total logic elements               ; 4                                                ;
+;     Total combinational functions  ; 4                                                ;
 ;     Dedicated logic registers      ; 4                                                ;
 ; Total registers                    ; 4                                                ;
 ; Total pins                         ; 6                                                ;
@@ -154,12 +154,11 @@ applicable agreement for further details.
 ; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
-; Maximum used               ; 2           ;
+; Maximum used               ; 1           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ; < 0.1%      ;
-;     Processors 3-4         ;   0.0%      ;
+;     Processors 2-4         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -177,16 +176,16 @@ applicable agreement for further details.
 +---------------------------------------------+----------+
 ; Resource                                    ; Usage    ;
 +---------------------------------------------+----------+
-; Estimated Total logic elements              ; 6        ;
+; Estimated Total logic elements              ; 4        ;
 ;                                             ;          ;
-; Total combinational functions               ; 6        ;
+; Total combinational functions               ; 4        ;
 ; Logic element usage by number of LUT inputs ;          ;
 ;     -- 4 input functions                    ; 2        ;
 ;     -- 3 input functions                    ; 1        ;
-;     -- <=2 input functions                  ; 3        ;
+;     -- <=2 input functions                  ; 1        ;
 ;                                             ;          ;
 ; Logic elements by mode                      ;          ;
-;     -- normal mode                          ; 6        ;
+;     -- normal mode                          ; 4        ;
 ;     -- arithmetic mode                      ; 0        ;
 ;                                             ;          ;
 ; Total registers                             ; 4        ;
@@ -196,9 +195,9 @@ applicable agreement for further details.
 ; I/O pins                                    ; 6        ;
 ; Embedded Multiplier 9-bit elements          ; 0        ;
 ; Maximum fan-out node                        ; r_reg[0] ;
-; Maximum fan-out                             ; 6        ;
-; Total fan-out                               ; 38       ;
-; Average fan-out                             ; 1.73     ;
+; Maximum fan-out                             ; 5        ;
+; Total fan-out                               ; 34       ;
+; Average fan-out                             ; 1.70     ;
 +---------------------------------------------+----------+
 
 
@@ -207,7 +206,7 @@ applicable agreement for further details.
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |mod10_counter             ; 6 (6)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |mod10_counter      ; work         ;
+; |mod10_counter             ; 4 (4)             ; 4 (4)        ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |mod10_counter      ; work         ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -242,23 +241,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Full Version
-    Info: Processing started: Fri Aug 30 17:21:35 2019
+    Info: Processing started: Fri Sep  6 17:09:54 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off mod10_counter -c mod10_counter
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file mod10_counter.vhd
-    Info (12022): Found design unit 1: mod10_counter-poor_async_arch
+    Info (12022): Found design unit 1: mod10_counter-two_seg_arch
     Info (12023): Found entity 1: mod10_counter
 Info (12127): Elaborating entity "mod10_counter" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 12 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 10 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 4 output pins
-    Info (21061): Implemented 6 logic cells
+    Info (21061): Implemented 4 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 400 megabytes
-    Info: Processing ended: Fri Aug 30 17:21:41 2019
+    Info: Processing ended: Fri Sep  6 17:10:00 2019
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:06
 
