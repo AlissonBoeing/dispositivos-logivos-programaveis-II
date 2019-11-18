@@ -5,11 +5,11 @@
  version="1.0"
  fabric="QSYS">
  <!-- Format version 18.1 625 (Future versions may contain additional information.) -->
- <!-- 2019.11.04.16:53:38 -->
+ <!-- 2019.11.18.17:42:18 -->
  <!-- A collection of modules and connections -->
  <parameter name="AUTO_GENERATION_ID">
   <type>java.lang.Integer</type>
-  <value>1572893618</value>
+  <value>1574106138</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -36,7 +36,7 @@
  </parameter>
  <parameter name="AUTO_DEVICE">
   <type>java.lang.String</type>
-  <value>EP4CE10E22A7</value>
+  <value>EP4CE115F29C7</value>
   <derived>false</derived>
   <enabled>true</enabled>
   <visible>false</visible>
@@ -2056,7 +2056,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="dataSlaveMapParam">
    <type>java.lang.String</type>
-   <value><![CDATA[<address-map><slave name='led_pio.s1' start='0x0' end='0x10' type='altera_avalon_pio.s1' /><slave name='onchip_mem.s1' start='0x8000' end='0xD000' type='altera_avalon_onchip_memory2.s1' /><slave name='cpu.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sys_clk_timer.s1' start='0x11000' end='0x11020' type='altera_avalon_timer.s1' /><slave name='sysid.control_slave' start='0x11020' end='0x11028' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart.avalon_jtag_slave' start='0x11028' end='0x11030' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
+   <value><![CDATA[<address-map><slave name='onchip_mem.s1' start='0x8000' end='0xD000' type='altera_avalon_onchip_memory2.s1' /><slave name='cpu.debug_mem_slave' start='0x10800' end='0x11000' type='altera_nios2_gen2.debug_mem_slave' /><slave name='sys_clk_timer.s1' start='0x11000' end='0x11020' type='altera_avalon_timer.s1' /><slave name='led_pio.s1' start='0x11020' end='0x11030' type='altera_avalon_pio.s1' /><slave name='sysid.control_slave' start='0x11030' end='0x11038' type='altera_avalon_sysid_qsys.control_slave' /><slave name='jtag_uart.avalon_jtag_slave' start='0x11038' end='0x11040' type='altera_avalon_jtag_uart.avalon_jtag_slave' /></address-map>]]></value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2244,7 +2244,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="AUTO_DEVICE">
    <type>java.lang.String</type>
-   <value>EP4CE10E22A7</value>
+   <value>EP4CE115F29C7</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>false</visible>
@@ -2727,7 +2727,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>jtag_uart</moduleName>
     <slaveName>avalon_jtag_slave</slaveName>
     <name>jtag_uart.avalon_jtag_slave</name>
-    <baseAddress>69672</baseAddress>
+    <baseAddress>69688</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -2735,7 +2735,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>sysid</moduleName>
     <slaveName>control_slave</slaveName>
     <name>sysid.control_slave</name>
-    <baseAddress>69664</baseAddress>
+    <baseAddress>69680</baseAddress>
     <span>8</span>
    </memoryBlock>
    <memoryBlock>
@@ -2767,7 +2767,7 @@ parameters are a RESULT of the module parameters. -->
     <moduleName>led_pio</moduleName>
     <slaveName>s1</slaveName>
     <name>led_pio.s1</name>
-    <baseAddress>0</baseAddress>
+    <baseAddress>69664</baseAddress>
     <span>16</span>
    </memoryBlock>
   </interface>
@@ -6872,7 +6872,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.CMacro.TIMESTAMP</name>
-   <value>1572893618</value>
+   <value>1574106138</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.compatible</name>
@@ -6892,7 +6892,7 @@ the requested settings for a module instance. -->
   </assignment>
   <assignment>
    <name>embeddedsw.dts.params.timestamp</name>
-   <value>1572893618</value>
+   <value>1574106138</value>
   </assignment>
   <assignment>
    <name>embeddedsw.dts.vendor</name>
@@ -6908,7 +6908,7 @@ the requested settings for a module instance. -->
   </parameter>
   <parameter name="timestamp">
    <type>int</type>
-   <value>1572893618</value>
+   <value>1574106138</value>
    <derived>true</derived>
    <enabled>false</enabled>
    <visible>false</visible>
@@ -7381,7 +7381,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00011028</value>
+   <value>0x00011038</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -7432,7 +7432,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x00011020</value>
+   <value>0x00011030</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>
@@ -7636,7 +7636,7 @@ parameters are a RESULT of the module parameters. -->
   </parameter>
   <parameter name="baseAddress">
    <type>java.math.BigInteger</type>
-   <value>0x0000</value>
+   <value>0x00011020</value>
    <derived>false</derived>
    <enabled>true</enabled>
    <visible>true</visible>

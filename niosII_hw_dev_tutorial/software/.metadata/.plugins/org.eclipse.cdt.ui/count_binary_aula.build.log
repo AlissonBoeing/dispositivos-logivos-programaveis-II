@@ -1,9 +1,9 @@
-18:16:12 **** Incremental Build of configuration Nios II for project count_binary_aula ****
+18:06:53 **** Incremental Build of configuration Nios II for project count_binary_aula ****
 make all 
 Info: Building ../count_binary_aula_bsp/
 make --no-print-directory -C ../count_binary_aula_bsp/
 [BSP build complete]
 [count_binary_aula build complete]
 
-18:16:13 Build Finished (took 232ms)
+18:06:53 Build Finished (took 252ms)
 
