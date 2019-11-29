@@ -2,9 +2,9 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Nov 18, 2019 3:50:12 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1574099412228</BspGeneratedUnixTimeStamp>
-        <BspGeneratedLocation>/media/sf_Data/IFSC/ownCloud/teaching/DLP2/src/niosII_hw_dev_tutorial_vhdl_aula/software/count_binary_bsp</BspGeneratedLocation>
+        <BspGeneratedTimeStamp>Nov 29, 2019 5:10:41 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1575054641758</BspGeneratedUnixTimeStamp>
+        <BspGeneratedLocation>/home/aluno/dispositivos-logivos-programaveis-II/nios2_quartus2_project_restored/software/count_binary_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../first_nios2_system.sopcinfo</SopcDesignFile>
         <JdiFile>default</JdiFile>

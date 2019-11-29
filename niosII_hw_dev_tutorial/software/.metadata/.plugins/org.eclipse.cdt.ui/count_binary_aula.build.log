@@ -1,9 +1,14 @@
-18:06:53 **** Incremental Build of configuration Nios II for project count_binary_aula ****
+18:48:06 **** Incremental Build of configuration Nios II for project count_binary_aula ****
 make all 
 Info: Building ../count_binary_aula_bsp/
 make --no-print-directory -C ../count_binary_aula_bsp/
 [BSP build complete]
-[count_binary_aula build complete]
+Info: Compiling main.c to obj/default/main.o
+nios2-elf-gcc -xc -MP -MMD -c -I../count_binary_aula_bsp//HAL/inc -I../count_binary_aula_bsp/ -I../count_binary_aula_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/main.o main.c
+main.c:15:44: fatal error: altera_up_avalon_character_lcd.h: No such file or directory
+compilation terminated.
+make: *** [obj/default/main.o] Error 1
+Makefile:776: recipe for target 'obj/default/main.o' failed
 
-18:06:53 Build Finished (took 252ms)
+18:48:06 Build Finished (took 278ms)
 

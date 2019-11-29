@@ -122,12 +122,12 @@ CPU_NAME = cpu
 ELF_PATCH_FLAG  += --cpu_name $(CPU_NAME)
 
 # Hardware Divider present. 
-# setting HARDWARE_DIVIDE is true
-ALT_CFLAGS += -mhw-div
+# setting HARDWARE_DIVIDE is false
+ALT_CFLAGS += -mno-hw-div
 
 # Hardware Multiplier present. 
-# setting HARDWARE_MULTIPLY is false
-ALT_CFLAGS += -mno-hw-mul
+# setting HARDWARE_MULTIPLY is true
+ALT_CFLAGS += -mhw-mul
 
 # Hardware Mulx present. 
 # setting HARDWARE_MULX is false
@@ -161,9 +161,9 @@ SOPC_SYSID_FLAG += --sidp=0x11040
 ELF_PATCH_FLAG  += --sidp 0x11040
 
 # The SOPC Timestamp 
-# setting SOPC_TIMESTAMP is 1574096520
-SOPC_SYSID_FLAG += --timestamp=1574096520
-ELF_PATCH_FLAG  += --timestamp 1574096520
+# setting SOPC_TIMESTAMP is 1574108846
+SOPC_SYSID_FLAG += --timestamp=1574108846
+ELF_PATCH_FLAG  += --timestamp 1574108846
 
 # Enable JTAG UART driver to recover when host is inactive causing buffer to 
 # full without returning error. Printf will not fail with this recovery. none 

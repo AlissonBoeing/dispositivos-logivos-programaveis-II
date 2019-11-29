@@ -1,5 +1,5 @@
 Flow report for nios2_quartus2_project
-Mon Nov 18 16:47:28 2019
+Fri Nov 29 17:31:11 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,18 +40,18 @@ refer to the applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Mon Nov 18 16:47:16 2019           ;
+; Flow Status                        ; Successful - Fri Nov 29 17:31:00 2019           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                      ; nios2_quartus2_project                          ;
 ; Top-level Entity Name              ; nios2_quartus2_project                          ;
 ; Family                             ; Cyclone IV E                                    ;
 ; Device                             ; EP4CE115F29C7                                   ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 2,798 / 114,480 ( 2 % )                         ;
-;     Total combinational functions  ; 2,475 / 114,480 ( 2 % )                         ;
-;     Dedicated logic registers      ; 1,719 / 114,480 ( 2 % )                         ;
-; Total registers                    ; 1719                                            ;
-; Total pins                         ; 17 / 529 ( 3 % )                                ;
+; Total logic elements               ; 2,836 / 114,480 ( 2 % )                         ;
+;     Total combinational functions  ; 2,521 / 114,480 ( 2 % )                         ;
+;     Dedicated logic registers      ; 1,736 / 114,480 ( 2 % )                         ;
+; Total registers                    ; 1736                                            ;
+; Total pins                         ; 29 / 529 ( 5 % )                                ;
 ; Total virtual pins                 ; 0                                               ;
 ; Total memory bits                  ; 192,896 / 3,981,312 ( 5 % )                     ;
 ; Embedded Multiplier 9-bit elements ; 6 / 532 ( 1 % )                                 ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+------------------------+
 ; Option            ; Setting                ;
 +-------------------+------------------------+
-; Start date & time ; 11/18/2019 16:43:36    ;
+; Start date & time ; 11/29/2019 17:27:29    ;
 ; Main task         ; Compilation            ;
 ; Revision Name     ; nios2_quartus2_project ;
 +-------------------+------------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------------------------------------+---------------+--------------------+------------+
 ; Assignment Name                     ; Value                                                                ; Default Value ; Entity Name        ; Section Id ;
 +-------------------------------------+----------------------------------------------------------------------+---------------+--------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 79965022112691.157410621506875                                       ; --            ; --                 ; --         ;
+; COMPILER_SIGNATURE_ID               ; 79965022112691.157505924815662                                       ; --            ; --                 ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                                                   ; --            ; --                 ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                                                    ; --            ; --                 ; --         ;
 ; MISC_FILE                           ; gerado/synthesis/../first_nios2_system.cmp                           ; --            ; --                 ; --         ;
@@ -91,7 +91,7 @@ refer to the applicable agreement for further details.
 ; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                ; --            ; --                 ; --         ;
 ; SLD_FILE                            ; gerado/synthesis/first_nios2_system.regmap                           ; --            ; --                 ; --         ;
 ; SLD_FILE                            ; gerado/synthesis/first_nios2_system.debuginfo                        ; --            ; --                 ; --         ;
-; SLD_INFO                            ; QSYS_NAME first_nios2_system HAS_SOPCINFO 1 GENERATION_ID 1574106138 ; --            ; first_nios2_system ; --         ;
+; SLD_INFO                            ; QSYS_NAME first_nios2_system HAS_SOPCINFO 1 GENERATION_ID 1575056965 ; --            ; first_nios2_system ; --         ;
 ; SMART_RECOMPILE                     ; On                                                                   ; Off           ; --                 ; --         ;
 ; SOPCINFO_FILE                       ; gerado/synthesis/../../first_nios2_system.sopcinfo                   ; --            ; --                 ; --         ;
 ; SYNTHESIS_ONLY_QIP                  ; On                                                                   ; --            ; --                 ; --         ;
@@ -103,11 +103,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:02:01     ; 1.0                     ; 1151 MB             ; 00:03:10                           ;
-; Fitter               ; 00:01:08     ; 1.0                     ; 1774 MB             ; 00:01:30                           ;
-; Assembler            ; 00:00:16     ; 1.0                     ; 857 MB              ; 00:00:16                           ;
-; Timing Analyzer      ; 00:00:10     ; 1.2                     ; 970 MB              ; 00:00:10                           ;
-; Total                ; 00:03:35     ; --                      ; --                  ; 00:05:06                           ;
+; Analysis & Synthesis ; 00:01:47     ; 1.0                     ; 1153 MB             ; 00:03:07                           ;
+; Fitter               ; 00:01:11     ; 1.0                     ; 1775 MB             ; 00:01:32                           ;
+; Assembler            ; 00:00:17     ; 1.0                     ; 859 MB              ; 00:00:16                           ;
+; Timing Analyzer      ; 00:00:09     ; 1.2                     ; 968 MB              ; 00:00:10                           ;
+; Total                ; 00:03:24     ; --                      ; --                  ; 00:05:05                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Nov 18, 2019 5:57:26 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1574107046562</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Nov 29, 2019 6:49:09 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1575060549044</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/aluno/dispositivos-logivos-programaveis-II/niosII_hw_dev_tutorial/software/count_binary_aula_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../first_nios2_system.sopcinfo</SopcDesignFile>
@@ -911,20 +911,26 @@
                 <attributes>timer</attributes>
         </MemoryMap>
         <MemoryMap>
-                <slaveDescriptor>led_pio</slaveDescriptor>
+                <slaveDescriptor>lcd</slaveDescriptor>
                 <addressRange>0x00011020 - 0x0001102F</addressRange>
+                <addressSpan>16</addressSpan>
+                <attributes>printable</attributes>
+        </MemoryMap>
+        <MemoryMap>
+                <slaveDescriptor>led_pio</slaveDescriptor>
+                <addressRange>0x00011030 - 0x0001103F</addressRange>
                 <addressSpan>16</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>sysid</slaveDescriptor>
-                <addressRange>0x00011030 - 0x00011037</addressRange>
+                <addressRange>0x00011040 - 0x00011047</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes/>
         </MemoryMap>
         <MemoryMap>
                 <slaveDescriptor>jtag_uart</slaveDescriptor>
-                <addressRange>0x00011038 - 0x0001103F</addressRange>
+                <addressRange>0x00011048 - 0x0001104F</addressRange>
                 <addressSpan>8</addressSpan>
                 <attributes>printable</attributes>
         </MemoryMap>

@@ -36,6 +36,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "lcd_external_E_top",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_external_RW_top",
+					"strict" : false
+				},
+				{
+					"name" : "lcd_external_RS_top",
+					"strict" : false
+				},
+				{
 					"name" : "PLD_CLOCKINPUT",
 					"strict" : false
 				},
